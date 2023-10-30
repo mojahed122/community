@@ -254,20 +254,19 @@ button{
     
 }
 
-@media  (min-width: 576px) {
+@media  (min-width: 576px) and (max-width:564px) {
 
     .full-container{
-        max-width: 0px;
-        
+        width: 540px;
     }
 
     .container{
-        width: 540px;
+        width: 340px;
     }
 
 
     .container-2{
-        width: 540px;
+        width: 340px;
     }
 
 
@@ -281,15 +280,12 @@ button{
     }
 
     .edit, .edit-2,.imges img{
-        width: 540px;
+        width: 340px;
         height: 240px;
     }
 
     .edit-3{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 540px;
+        width: 340px;
         height: 260px;
         border-radius: 10px;
         
@@ -312,7 +308,7 @@ button{
     }
 
     .edit-5,.edit-6{
-        width: 540px;
+        width: 340px;
         
     }
 
@@ -333,7 +329,7 @@ button{
     }
 
     footer{
-        width: 540px;
+        width: 360px;
         font-size: 10px;
         border-radius: 20% 20% 0px 0px;
         height: 290px;
@@ -355,5 +351,7 @@ button{
         
     }
 
-
 }
+
+
+
