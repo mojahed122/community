@@ -334,7 +334,7 @@ button{
     }
 
     footer{
-        width: 540px;
+        width: 360px;
         font-size: 10px;
         border-radius: 20% 20% 0px 0px;
         height: 290px;
@@ -357,4 +357,22 @@ button{
     }
 
 
+}
+
+@media (min-width: 768px){
+    .full-container{
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px){
+    .full-container{
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px){
+    .full-container{
+        max-width: 1140px;
+    }
 }
