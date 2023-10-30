@@ -271,7 +271,7 @@ button{
 
 
     .container-2{
-        width: 360px;
+        width: 340px;
     }
 
 
@@ -279,8 +279,13 @@ button{
         text-align: center;
     }
 
+    .link-1{
+        margin-right: 0;
+        padding-right: 0;
+    }
+
     .edit, .edit-2,.imges img{
-        width: 360px;
+        width: 340px;
         height: 240px;
     }
 
@@ -288,7 +293,7 @@ button{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 360px;
+        width: 340px;
         height: 260px;
         border-radius: 10px;
         
