@@ -254,10 +254,10 @@ button{
     
 }
 
-@media screen and (min-width: 576px) and (max-width:540px) {
+@media  (min-width: 576px) and (max-width: 776px) {
 
     .full-container{
-        width: 0px;
+        width: 540px;
     }
 
     .container{
