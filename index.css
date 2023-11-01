@@ -258,12 +258,190 @@ button{
 @media (max-width: 576px)  {
 
     .full-container{
-        max-width: 10px;
+        min-width: 540px;
         height: auto;
     }
 
     .container{
         min-width: 250px;
+        
+    }
+
+    .logo img{
+        width: 50px;
+    }
+
+    ul,li,.link-1{
+        display: none;
+        
+    }
+
+    .container-2{
+        width: 250px;
+        height: auto;
+    }
+
+    .container-2 h1{
+        font-size: 8px;
+        margin-top: 10px;
+        width: 250px;
+        text-align: center;
+        text-indent: 1px;
+        width: 170px;
+    }
+
+    .container-2 p{
+        font-size: 6px;
+        text-indent: 2px;
+        font-weight: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .button-1, .button-2{
+        width: 100px;
+        border: none;
+        font-size: 8px;
+        font-weight: 100px;
+        padding: 5px;
+        margin: 0;
+    }
+
+    .edit,.imges img{
+        width: 200px;
+    }
+
+    .community, h2, span{
+        font-size: 6px;
+        
+    }
+    .community-2, h2, span{
+        font-size: 6px;
+    }
+
+    .community img{
+        width: 10px;
+        
+    }
+
+    .community-2 img{
+        width: 10px;
+        
+    }
+
+    .edit-2, .community , .community-2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 8px;
+        margin-top: 5px;
+        margin-right: 60px;
+    }
+
+    .edit-3{
+        width: 250px;
+        height: auto;
+    }
+
+    .img2e img{
+        width: 130px;
+        height: auto;
+    }
+
+    .edit-4 h3{
+        font-size: 10px
+    }
+
+    .edit-4 .desktop-bottom{
+        font-size: 6px;
+        text-indent: 10px;
+        text-align: center;
+    }
+
+    .edit-5{
+        width: 250px;
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .edit-6 img{
+        width: 130px;
+    }
+
+    .one h4{
+        font-size: 8px;
+        text-indent: 10px;
+        margin: 10px;
+        padding: 0;
+    }
+
+    .one .desktop-bottom-2{
+        font-size: 5px;
+        text-indent: 10px;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    footer{
+        width: 250px;
+        height: auto;
+        border-radius: 10px 10px 0 0;
+        margin-top: 10px;
+    }
+
+    footer,.img11e{
+        font-size: 5px;
+
+    }
+
+    .logo-name{
+        font-size: 10px;
+        margin-top: 30px;
+    }
+
+    .foot-1 span{
+        font-size: 8px;
+        text-align: center;
+    }
+
+    .letter-1, .foot-1 span{
+        font-size: 8px;
+        text-align: center;
+    }
+
+    .new-edit{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .searc1h input{
+        width: 100px;
+        height: 6px;
+    }
+
+    .searc1h button{
+        font-size: 8px;
+        width: 70px;
+        padding: 5px;
+        margin-top: 5px;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 768px)  {
+
+    .full-container{
+        min-width: 720px;
+        height: auto;
+    }
+
+    .container{
+        min-width: 720px;
         
     }
 
